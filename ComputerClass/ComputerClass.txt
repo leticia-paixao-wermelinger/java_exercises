@@ -1,0 +1,15 @@
+Classes, Objects, and Access Methods:
+
+Implement a model class in Java and develop a test application to create and use different objects based on this model.
+Create a class named 'Computer' with five attributes to represent a computer object.
+The class must have two constructors:
+A default constructor (without parameters).
+A parameterized constructor that takes all five attributes as arguments.
+Implement getter and setter methods for each attribute.
+Include a method named imprimir to display all attribute values.
+Create a separate application class that:
+Instantiates four 'Computer' objects.
+Requests user input to populate the attributes of each object.
+Displays all attributes of the four objects using the 'print' method.
+Uses the default constructor for two objects and the parameterized constructor for the other two.
+Ensure the model class and the test application are implemented separately.
