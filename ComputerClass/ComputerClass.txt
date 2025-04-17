@@ -1,15 +1,23 @@
-Classes, Objects, and Access Methods:
+💻 Challenge: Modeling and Managing Computer Data Using Java Classes and Encapsulation
+Create a Java application that models computers using object-oriented programming principles.
+The system must include a class named Computer with attributes such as brand, model, year,
+serial number, and processor. Focus on implementing proper encapsulation, including getter
+and setter methods, and input validation to ensure data integrity.
 
-Implement a model class in Java and develop a test application to create and use different objects based on this model.
-Create a class named 'Computer' with five attributes to represent a computer object.
-The class must have two constructors:
-A default constructor (without parameters).
-A parameterized constructor that takes all five attributes as arguments.
-Implement getter and setter methods for each attribute.
-Include a method named imprimir to display all attribute values.
-Create a separate application class that:
-Instantiates four 'Computer' objects.
-Requests user input to populate the attributes of each object.
-Displays all attributes of the four objects using the 'print' method.
-Uses the default constructor for two objects and the parameterized constructor for the other two.
-Ensure the model class and the test application are implemented separately.
+The class should feature two constructors: a default one that requests user input via the console,
+and a parameterized one that initializes all attributes directly. Include a method to print the full
+computer information in a structured format.
+
+To demonstrate and test the class behavior, implement an application class named ComputerStore.
+In it, instantiate four Computer objects—two using the default constructor and two using the
+parameterized one. Display the data for all instances and validate edge cases, such as invalid input
+values or empty fields.
+
+💡 Suggestions and Extensions
+Consider implementing data validation rules such as checking for string length limits, allowed
+characters, and valid year ranges. You can also explore ways to improve user interaction through
+input feedback loops and error handling. As a next step, the system could be expanded with features
+like storing multiple computers in a list or file, or filtering and searching based on specific attributes.
+
+Optionally, you may include a class diagram to visually represent the structure of the application,
+emphasizing encapsulation and constructor overloading.

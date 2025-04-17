@@ -1,13 +1,3 @@
-/**
- * Universidade Veiga de Almeida
- * Curso: Análise e Desenvolvimento de Sistemas
- * Disciplina: Programação Orientada a Objetos I (E90100024)
- * Professora: Itala Freire De Macedo
- * Estudante: Letícia Paixão Wermelinger
- * Matrícula: 1240210571
- * Data: 30/03/2025
- */
-
 import java.util.Scanner;
 
 public class Computer {

@@ -1,0 +1,20 @@
+🚀 Challenge: Object-Oriented Application with Class Hierarchy and Exception Handling in Java
+Design and implement an object-oriented system in Java that models a class hierarchy of vehicles.
+The structure begins with a general Vehicle superclass and branches into two specialized subclasses:
+Ship and Airplane, each introducing their own attributes and behaviors.
+
+The goal is to explore and apply fundamental OOP concepts such as inheritance, encapsulation,
+method overriding, and polymorphism. The implementation must include constructors (with and without
+parameters), validation logic with exception handling, and dynamic features such as user input,
+formatted output, and a method for adjusting vehicle prices by a percentage. Arrays of objects should
+be used to manage multiple instances of ships and airplanes, allowing for operations such as printing
+data in bulk, applying transformations, and filtering based on specific criteria.
+
+Additional logic may include calculating the passenger-to-crew ratio for ships, validating year inputs,
+and identifying the ship with the largest fuel tank capacity. Override methods where appropriate to
+tailor subclass behaviors. Ensure the code structure reflects good design principles, reusability, and
+clarity of responsibility across classes.
+
+To support the design, create a UML-style class hierarchy diagram that visually represents the relationships
+between the base class and its subclasses. Optionally, consider implementing extra features like sorting
+by price, searching by name or prefix, or enhancing the UI with a menu-driven interaction via the console.
